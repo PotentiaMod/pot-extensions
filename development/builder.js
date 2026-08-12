@@ -385,7 +385,7 @@ class HomepageFile extends BuildFile {
   }
 
   getRunExtensionURL(extensionSlug) {
-    return `https://potentiamod.github.io//editor?extension=${this.getFullExtensionURL(
+    return `https://potentiamod.github.io/editor.html?extension=${this.getFullExtensionURL(
       extensionSlug
     )}`;
   }
@@ -396,7 +396,7 @@ class HomepageFile extends BuildFile {
    */
   getRunSampleURL(sampleFile) {
     const path = encodeURIComponent(`samples/${sampleFile.getSlug()}`);
-    return `https://potentiamod.github.io//editor?project_url=${this.host}${path}`;
+    return `https://potentiamod.github.io/editor.html?project_url=${this.host}${path}`;
   }
 
   read() {
