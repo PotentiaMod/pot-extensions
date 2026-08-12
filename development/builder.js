@@ -581,7 +581,7 @@ class SitemapFile extends BuildFile {
         if (a.length > b.length) return 1;
         return a - b;
       })
-      .map((path) => `https://extensions.turbowarp.org${path}`)
+      .map((path) => `https://potentiamod.github.io/pot-extensions/${path}`)
       .map((absoluteURL) => `<url><loc>${absoluteURL}</loc></url>`)
       .join("\n");
 
