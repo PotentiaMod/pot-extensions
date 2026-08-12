@@ -369,7 +369,7 @@ class HomepageFile extends BuildFile {
     this.host =
       mode === "development"
         ? "http://localhost:8000/"
-        : "https://extensions.turbowarp.org/";
+        : "https://potentiamod.github.io/pot-extensions/";
   }
 
   getType() {
@@ -385,7 +385,7 @@ class HomepageFile extends BuildFile {
   }
 
   getRunExtensionURL(extensionSlug) {
-    return `https://turbowarp.org/editor?extension=${this.getFullExtensionURL(
+    return `https://potentiamod.github.io/editor?extension=${this.getFullExtensionURL(
       extensionSlug
     )}`;
   }
@@ -396,7 +396,7 @@ class HomepageFile extends BuildFile {
    */
   getRunSampleURL(sampleFile) {
     const path = encodeURIComponent(`samples/${sampleFile.getSlug()}`);
-    return `https://turbowarp.org/editor?project_url=${this.host}${path}`;
+    return `https://potentiamod.github.io/editor?project_url=${this.host}${path}`;
   }
 
   read() {
@@ -635,7 +635,7 @@ class SampleFile extends BuildFile {
 
     for (const url of urls) {
       if (
-        !url.startsWith("https://extensions.turbowarp.org/") ||
+        !url.startsWith("https://potentiamod.github.io/pot-extensions/") ||
         !url.endsWith(".js")
       ) {
         throw new Error(`Invalid extension URL for sample: ${url}`);
