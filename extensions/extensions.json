@@ -3,6 +3,9 @@
   "GaiaWindWave90/POTTest",
   "GaiaWindWave90/POTConsoles",
   "GaiaWindWave90/POTBrowserStuff",
+  "GaiaWindWave90/POTAdBlockDetect",
   "GaiaWindWave90/POTPotentiaModBlocks",
-  "GaiaWindWave90/POTPlatformDetector"
+  "GaiaWindWave90/POTPlatformDetector",
+  "GaiaWindWave90/POTImageBlocks",
+  "GaiaWindWave90/POTBlockThemeChanger"
 ]
