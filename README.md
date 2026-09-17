@@ -1,6 +1,6 @@
 # PotentiaMod Extension Gallery
 
-User-contributed unsandboxed extension gallery for TurboWarp.
+User-contributed unsandboxed extension gallery for PotentiaMod.
 
 https://potentiamod.github.io/pot-extensions/
 
