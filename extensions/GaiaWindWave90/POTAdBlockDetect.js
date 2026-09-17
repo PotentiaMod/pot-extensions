@@ -2,7 +2,7 @@
 // ID: POTAdBlockDetect
 // Description: A block that detects ad-blocking browser extensions.
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: CC BY-NC-SA 4.0
+// License: MPL-2.0
 
 /* Edited by Gaiamod Extension Editor */
 /* Also generated with Google Gemini */

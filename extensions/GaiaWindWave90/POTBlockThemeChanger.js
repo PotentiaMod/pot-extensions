@@ -2,7 +2,7 @@
 // ID: POTBlockThemeChanger
 // Description: Allow you to change block themes!
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: CC BY-NC-SA 4.0
+// License: MPL-2.0
 
 /* Generated with Google Gemini */
 (function(Scratch) {

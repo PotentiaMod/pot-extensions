@@ -2,7 +2,7 @@
 // ID: POTConsoles
 // Description: Apparently the first-ever original PotentiaMod extension that logs things on consoles.
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: CC BY-NC-SA 4.0>
+// License: MPL-2.0>
 (function (Scratch) {
 	"use strict";
     

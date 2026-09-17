@@ -2,7 +2,7 @@
 // ID: POTStuff
 // Description: Something that I will try to do stuff on. Inspired by the AcidMod Test extension.
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: CC BY-NC-SA 4.0
+// License: MPL-2.0
 (function (Scratch) {
 	"use strict";
 	
