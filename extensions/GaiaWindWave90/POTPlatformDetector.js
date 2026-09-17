@@ -2,7 +2,7 @@
 // ID: POTPlatformDetector
 // Description: Detects whenever the platform was a Scratch mod or not.
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: MPL-2.0
+// License: CC BY-NC-SA 4.0
 (function (Scratch) {
     "use strict";
 class platformDetector {
@@ -23,9 +23,19 @@ class platformDetector {
             text: 'Is GaiaMod?'
           },
 		  {
+            opcode: 'isNitroBolt',
+            blockType: Scratch.BlockType.BOOLEAN,
+            text: 'Is NitroBolt?'
+          },
+		  {
             opcode: 'isDash',
             blockType: Scratch.BlockType.BOOLEAN,
             text: 'Is Dash?'
+          },
+		  {
+            opcode: 'isMistWarp',
+            blockType: Scratch.BlockType.BOOLEAN,
+            text: 'Is MistWarp?'
           },
 		  {
             opcode: 'isElectraMod',
@@ -51,10 +61,20 @@ class platformDetector {
     ? "true"  : "false";
   return this.isgm
     }
+    isNitroBolt() {
+      this.isnb = Scratch.extensions.isNitroBolt
+    ? "true"  : "false";
+  return this.isnb
+    }
     isDash() {
       this.isdash = Scratch.extensions.isDash
     ? "true"  : "false";
   return this.isdash
+    }
+	    isMistWarp() {
+      this.ismw = Scratch.extensions.isMistWarp
+    ? "true"  : "false";
+  return this.ismw
     }
     isElectraMod() {
       this.isem = Scratch.extensions.isElectraMod

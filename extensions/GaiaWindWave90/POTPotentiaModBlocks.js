@@ -2,7 +2,7 @@
 // ID: POTPotentiaModBlocks
 // Description: Weird new blocks, but it's a Javascript modified port of TurboWarp Blocks.
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: MPL-2.0
+// License: CC BY-NC-SA 4.0
 (function (Scratch) {
 	"use strict";
 	
@@ -40,16 +40,7 @@ class PotentiaModBlocks {
             menuIconURI: iconURI,
             blockIconURI: iconURI,
             blocks: [
-			// Sudden XML
-               {
-                    blockType: Scratch.BlockType.XML,
-                    xml: '<block type="argument_reporter_boolean"><field name="VALUE">is compiled?</field></block>'
-                },
-				{
-                    blockType: Scratch.BlockType.XML,
-                    xml: '<block type="argument_reporter_boolean"><field name="VALUE">is PotentiaMod?</field></block>'
-                },
-		  // OK there
+		  // Blocks
                 {
                     opcode: 'getLastKeyPressed',
                     text: 'last key pressed',
@@ -66,7 +57,7 @@ class PotentiaModBlocks {
                             defaultValue: '0'
                         }
                     }
-                }
+                },
             ],
             menus: {
                 mouseButton: {

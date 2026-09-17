@@ -2,7 +2,7 @@
 // ID: POTBrowserStuff
 // Description: Some stuff for the web browser.
 // By: GaiaWindWave90 <https://scratch.mit.edu/users/kinetaV/>
-// License: MPL-2.0
+// License: CC BY-NC-SA 4.0
 (function (Scratch) {
 	"use strict";
     
