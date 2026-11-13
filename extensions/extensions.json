@@ -5,7 +5,9 @@
   "GaiaWindWave90/POTBrowserStuff",
   "GaiaWindWave90/POTAdBlockDetect",
   "GaiaWindWave90/POTPotentiaModBlocks",
-  "GaiaWindWave90/POTPlatformDetector",
+  "GaiaWindWave90/POTProjectPageTW",
+  "GaiaWindWave90/SpinachFacts",
   "GaiaWindWave90/POTImageBlocks",
-  "GaiaWindWave90/POTBlockThemeChanger"
+  "GaiaWindWave90/POTBlockThemeChanger",
+  "GaiaWindWave90/POTGUIThemeChanger"
 ]
